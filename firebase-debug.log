@@ -1,0 +1,50 @@
+[debug] [2024-10-15T18:51:45.236Z] ----------------------------------------------------------------------
+[debug] [2024-10-15T18:51:45.240Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\masteronevil\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-10-15T18:51:45.241Z] CLI Version:   13.22.0
+[debug] [2024-10-15T18:51:45.241Z] Platform:      win32
+[debug] [2024-10-15T18:51:45.241Z] Node Version:  v20.18.0
+[debug] [2024-10-15T18:51:45.241Z] Time:          Wed Oct 16 2024 00:21:45 GMT+0530 (India Standard Time)
+[debug] [2024-10-15T18:51:45.242Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-15T18:51:45.346Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2024-10-15T18:51:45.353Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-15T18:51:45.353Z] > authorizing via signed-in user (rupkumarsarkar648254@gmail.com)
+[debug] [2024-10-15T18:51:45.353Z] [iam] checking project master-poshan-monitor for permissions ["cloudsql.databases.create","cloudsql.databases.update","cloudsql.instances.connect","cloudsql.instances.create","cloudsql.instances.get","cloudsql.instances.list","cloudsql.instances.update","cloudsql.users.create","firebase.projects.get","firebasedataconnect.connectors.create","firebasedataconnect.connectors.delete","firebasedataconnect.connectors.list","firebasedataconnect.connectors.update","firebasedataconnect.operations.get","firebasedataconnect.schemas.create","firebasedataconnect.schemas.delete","firebasedataconnect.schemas.list","firebasedataconnect.schemas.update","firebasedataconnect.services.create","firebasedataconnect.services.delete","firebasedataconnect.services.list","firebasedataconnect.services.update","firebasehosting.sites.update"]
+[debug] [2024-10-15T18:51:45.355Z] Checked if tokens are valid: false, expires at: 1729019199629
+[debug] [2024-10-15T18:51:45.355Z] Checked if tokens are valid: false, expires at: 1729019199629
+[debug] [2024-10-15T18:51:45.356Z] > refreshing access token with scopes: []
+[debug] [2024-10-15T18:51:45.358Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-10-15T18:51:45.358Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-10-15T18:51:45.878Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-10-15T18:51:45.879Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-10-15T18:51:45.899Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/master-poshan-monitor:testIamPermissions [none]
+[debug] [2024-10-15T18:51:45.899Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/master-poshan-monitor:testIamPermissions x-goog-quota-user=projects/master-poshan-monitor
+[debug] [2024-10-15T18:51:45.899Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/master-poshan-monitor:testIamPermissions {"permissions":["cloudsql.databases.create","cloudsql.databases.update","cloudsql.instances.connect","cloudsql.instances.create","cloudsql.instances.get","cloudsql.instances.list","cloudsql.instances.update","cloudsql.users.create","firebase.projects.get","firebasedataconnect.connectors.create","firebasedataconnect.connectors.delete","firebasedataconnect.connectors.list","firebasedataconnect.connectors.update","firebasedataconnect.operations.get","firebasedataconnect.schemas.create","firebasedataconnect.schemas.delete","firebasedataconnect.schemas.list","firebasedataconnect.schemas.update","firebasedataconnect.services.create","firebasedataconnect.services.delete","firebasedataconnect.services.list","firebasedataconnect.services.update","firebasehosting.sites.update"]}
+[debug] [2024-10-15T18:51:47.852Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/master-poshan-monitor:testIamPermissions 200
+[debug] [2024-10-15T18:51:47.853Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/master-poshan-monitor:testIamPermissions {"permissions":["cloudsql.databases.create","cloudsql.databases.update","cloudsql.instances.connect","cloudsql.instances.create","cloudsql.instances.get","cloudsql.instances.list","cloudsql.instances.update","cloudsql.users.create","firebase.projects.get","firebasedataconnect.connectors.create","firebasedataconnect.connectors.delete","firebasedataconnect.connectors.list","firebasedataconnect.connectors.update","firebasedataconnect.operations.get","firebasedataconnect.schemas.create","firebasedataconnect.schemas.delete","firebasedataconnect.schemas.list","firebasedataconnect.schemas.update","firebasedataconnect.services.create","firebasedataconnect.services.delete","firebasedataconnect.services.list","firebasedataconnect.services.update","firebasehosting.sites.update"]}
+[debug] [2024-10-15T18:51:47.854Z] Checked if tokens are valid: true, expires at: 1729021904879
+[debug] [2024-10-15T18:51:47.854Z] Checked if tokens are valid: true, expires at: 1729021904879
+[debug] [2024-10-15T18:51:47.855Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/master-poshan-monitor [none]
+[debug] [2024-10-15T18:51:48.516Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/master-poshan-monitor 200
+[debug] [2024-10-15T18:51:48.516Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/master-poshan-monitor {"projectId":"master-poshan-monitor","projectNumber":"759182182491","displayName":"Poshan Monitor","name":"projects/master-poshan-monitor","resources":{"hostingSite":"master-poshan-monitor","storageBucket":"master-poshan-monitor.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_5b9088cd-99f3-4d79-aa13-bce1a4f45ea3"}
+[debug] [2024-10-15T18:51:51.597Z] Checked if tokens are valid: true, expires at: 1729021904879
+[debug] [2024-10-15T18:51:51.597Z] Checked if tokens are valid: true, expires at: 1729021904879
+[debug] [2024-10-15T18:51:51.598Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/master-poshan-monitor/sites pageToken=&pageSize=10
+[debug] [2024-10-15T18:51:53.139Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/master-poshan-monitor/sites 200
+[debug] [2024-10-15T18:51:53.139Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/master-poshan-monitor/sites {"sites":[{"name":"projects/master-poshan-monitor/sites/master-poshan-monitor","defaultUrl":"https://master-poshan-monitor.web.app","appId":"1:759182182491:web:929ced8774f40001b7d77e","type":"DEFAULT_SITE"}]}
+[debug] [2024-10-15T18:51:53.140Z] Checked if tokens are valid: true, expires at: 1729021904879
+[debug] [2024-10-15T18:51:53.140Z] Checked if tokens are valid: true, expires at: 1729021904879
+[debug] [2024-10-15T18:51:53.141Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:759182182491:web:929ced8774f40001b7d77e/config [none]
+[debug] [2024-10-15T18:51:54.944Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:759182182491:web:929ced8774f40001b7d77e/config 200
+[debug] [2024-10-15T18:51:54.944Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:759182182491:web:929ced8774f40001b7d77e/config {"projectId":"master-poshan-monitor","appId":"1:759182182491:web:929ced8774f40001b7d77e","storageBucket":"master-poshan-monitor.appspot.com","locationId":"us-central","apiKey":"AIzaSyC3VRwaudck7VG27PgIVEhEmuOAOP6z4Ps","authDomain":"master-poshan-monitor.firebaseapp.com","messagingSenderId":"759182182491","measurementId":"G-FGR8Q84MSL"}
+[info] 
+   Thank you for trying our experimental support for Flutter Web on Firebase Hosting.
+   While this integration is maintained by Googlers it is not a supported Firebase product.
+   Issues filed on GitHub will be addressed on a best-effort basis by maintainers and other community members.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/frameworks-overview
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
