@@ -5,7 +5,10 @@
      "display": "standalone",
      "background_color": "#0175C2",
      "theme_color": "#0175C2",
-     "description": "A new Flutter project.",
+     "description": "The Poshan Monitor App helps Anganwadi Workers track children's growth using WHO standards, monitor stunting, wasting, and underweight, and manage SNP distribution to improve child nutrition.
+     Poshan Monitor App is a comprehensive tool designed specifically for Anganwadi Workers (AWW) to facilitate the monitoring and management of children's growth and nutritional status. This app empowers AWWs by providing an interactive and easy-to-use platform that calculates essential growth metrics for children, adhering to the standards set by the World Health Organization (WHO).
+     
+     ",
      "orientation": "portrait-primary",
      "prefer_related_applications": false,
      "icons": [
